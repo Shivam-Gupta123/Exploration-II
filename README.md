@@ -1,2 +1,7 @@
-# Exploration-II
-The code written for the second exploration activity conducted using the Crayola Bots provided.
+Exploration II :
+
+**PURPOSE** The purpose of this exploration was to get exposure to the different techniques that the robot could incorporate to navigate the robot course. The two techniques that were explored in this activity were line following and shaft encoding.
+
+**SUMMARY AND RESULTS** The line following was done using an algorithm in which the robot repeatedly drove torwards the line (the line the robot is trying to follow) until it "saw" the line (detecting change in reflectivity using optosensors), and then drove away from the line until it couldn't "see" the line anymore (detecting change in reflectivity using optosensors). This results in a zig-zag pattern centered around the mid-section of the line trying to be followed. This algorithm allowed the robot to successfully follow the line, even if the line was curved or not linear. The shaft encoding was performed by reading shaft encoder sensor input and  calculating the theoretical encoder counts per inch of linear motion for a robot to then turn and move the robot a specified amount.
+
+**APPLICATIONS** This exploration provided valuable insight on the navigation techniques that can be incorporated into the design of the robot. The line following will most likely be the predominant method of navigation for the robot design. This is because the majority of the course path is traced on the surface by a thick black line, therefore it will be easy to follow and get to the task sites in order to perform the required tasks. Despite this, there may be some locations on the course that can't easily reached by following a line, such as getting to the correct lever or returning back to the start site. In these types of situations, the shaft encoding principles studied in this exploration will be used to drive the robot and turn the robot at specified magnitudes.
